@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Navbar() {
     return (
-        <nav className="sticky top-0 z-50 bg-[#101014] w-full">
+        <nav className="sticky top-0 z-50 bg-[#101014] w-full backdrop-blur-md">
             <div className="max-w-7xl mx-auto px-4 h-16 grid grid-cols-[1fr_auto_1fr] items-center font-heading font-semibold text-white">
                 <Link href="/" className="font-bold">
                     Cooper Charles

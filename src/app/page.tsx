@@ -9,18 +9,18 @@ export default function Home() {
           <div className="grid grid-cols-[1fr_1fr]">
             <h1 className="text-2xl font-bold font-heading text-4xl">Cooper Charles</h1>
             <div className="flex items-center justify-center gap-1 sm:gap-2 text-xs sm:text-sm overflow-x-auto no-scrollbar">
-              <Link href="/resume.pdf" className="px-2 sm:px-3 py-1.5 flex items-center gap-2">
-                <img src="/file.svg" width="25" height="15"/>
-                <p>Resume</p>
+              <Link href="/resume.pdf" target="_blank" className="px-2 sm:px-3 py-1.5 flex items-center gap-2">
+                <img src="/file.svg" width="25" height="15" className="brightness-0 invert"/>
+                <p className="font-bold">Resume</p>
               </Link>
-              <Link href="/experience" className="px-2 sm:px-3 py-1.5">
-                Experience
+              <Link href="https://www.linkedin.com/in/cooper-charles-45094038a/" target="_blank" className="px-2 sm:px-3 py-1.5">
+                <img src="/linkedInIcon.svg" width="25" height="15" className="brightness-0 invert"/>
               </Link>
-              <Link href="/projects" className="px-2 sm:px-3 py-1.5">
-                Projects
+              <Link href="https://github.com/cooper-charles" target="_blank" className="px-2 sm:px-3 py-1.5">
+                <img src="/gitHubIcon.svg" width="25" height="15" className="brightness-0 invert"/>
               </Link>
-              <Link href="/skills" className="px-2 sm:px-3 py-1.5">
-                Skills
+              <Link href="mailto:ccharl10@vols.utk.edu" target="_blank" className="px-2 sm:px-3 py-1.5">
+                <img src="/emailIcon.svg" width="25" height="15" className="brightness-0 invert"/>
               </Link>
             </div>
           </div>
