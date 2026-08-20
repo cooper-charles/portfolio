@@ -9,7 +9,7 @@ export default function Home() {
           <div className="grid grid-cols-[1fr_1fr]">
             <h1 className="text-2xl font-bold font-heading text-4xl">Cooper Charles</h1>
             <div className="flex items-center justify-center gap-1 sm:gap-2 text-xs sm:text-sm overflow-x-auto no-scrollbar">
-              <Link href="/about" className="px-2 sm:px-3 py-1.5 grid grid-cols-[1fr_1fr]">
+              <Link href="/resume.pdf" className="px-2 sm:px-3 py-1.5 flex items-center gap-2">
                 <img src="/file.svg" width="25" height="15"/>
                 <p>Resume</p>
               </Link>
