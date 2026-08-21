@@ -49,6 +49,59 @@ export default function Home() {
           </div>
         </section>
 
+        <section>
+          <h2 className="mb-5 text-4xl font-heading font-bold">
+            Projects
+          </h2>
+          
+          <div className="relative overflow-hidden rounded-2xl group transition-all duration-300 hover:shadow-xl">
+            <img src="screenshots/zsl.png" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent"/>
+            <div className="absolute bottom-0 left-0 z-10 w-full p-5 transition-transform duration-300 group-hover:-translate-y-2">
+              <h3 className="text-xl font-bold">
+                Zero Sum Labs
+              </h3>
+
+              <div className="mt-2 flex gap-2">
+                <div className="flex flex-wrap gap-2">
+                  <span className="rounded-md border border-white/20 px-2 py-1 text-sm">
+                    Next.js
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="rounded-md border border-white/20 px-2 py-1 text-sm">
+                    React
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="rounded-md border border-white/20 px-2 py-1 text-sm">
+                    Python
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="rounded-md border border-white/20 px-2 py-1 text-sm">
+                    Supabase
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="rounded-md border border-white/20 px-2 py-1 text-sm">
+                    Raspberry Pi
+                  </span>
+                </div>
+              </div>
+
+              <p className="mt-2">
+                Automated regression-based sports ratings and game projections platform
+              </p>
+                <div className="max-h-0 overflow-hidden opacity-0 transition-all duration-300 group-hover:max-h-10 group-hover:opacity-100 group-hover:mt-3">
+                  <span className="font-semibold">
+                    Learn more →
+                  </span>
+                </div>
+            </div>
+          </div>
+        </section>
+
       </main>
 
     </div>
