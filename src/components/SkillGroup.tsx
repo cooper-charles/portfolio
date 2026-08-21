@@ -1,4 +1,4 @@
-export function SkillGroup({title, skills,}: {title: string; skills: { name: string; icon: string }[];}) {
+export default function SkillGroup({title, skills,}: {title: string; skills: { name: string; icon: string }[];}) {
     return (
         <div>
             <h3 className="mb-2 text-2xl font-bold text-neutral-400">
