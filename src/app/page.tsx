@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import Image from "next/image";
+import { SkillGroup } from "@/components/SkillGroup";
+import { skillGroups } from "@/data/skills";
 
 export default function Home() {
   return (
@@ -14,13 +15,13 @@ export default function Home() {
                 <p className="font-bold">Resume</p>
               </Link>
               <Link href="https://www.linkedin.com/in/cooper-charles-45094038a/" target="_blank" className="px-2 sm:px-3 py-1.5 border border-[#1e1e24] rounded-md">
-                <img src="/linkedInIcon.svg" width="25" height="15" className="brightness-0 invert"/>
+                <img src="icons/linkedIn.svg" width="25" height="15" className="brightness-0 invert"/>
               </Link>
               <Link href="https://github.com/cooper-charles" target="_blank" className="px-2 sm:px-3 py-1.5 border border-[#1e1e24] rounded-md">
-                <img src="/gitHubIcon.svg" width="25" height="15" className="brightness-0 invert"/>
+                <img src="icons/gitHub.svg" width="25" height="15" className="brightness-0 invert"/>
               </Link>
               <Link href="mailto:ccharl10@vols.utk.edu" target="_blank" className="px-2 sm:px-3 py-1.5 border border-[#1e1e24] rounded-md">
-                <img src="/emailIcon.svg" width="25" height="15" className="brightness-0 invert"/>
+                <img src="icons/email.svg" width="25" height="15" className="brightness-0 invert"/>
               </Link>
             </div>
           </div>
@@ -33,7 +34,19 @@ export default function Home() {
         </section>
 
         <section>
-          <h2 className="text-xl font-bold mb-4"></h2>
+          <h2 className="mb-5 text-4xl font-heading font-bold">
+            What I work with
+          </h2>
+          
+          <div className="grid grid-cols-2 gap-x-20 gap-y-10">
+            {skillGroups.map((group) => (
+              <SkillGroup
+                key={group.title}
+                title={group.title}
+                skills={group.skills}
+              />
+            ))}
+          </div>
         </section>
 
       </main>

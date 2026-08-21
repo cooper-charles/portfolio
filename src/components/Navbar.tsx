@@ -8,17 +8,14 @@ export function Navbar() {
                     Cooper Charles
                 </Link>
                 <div className="flex items-center justify-center gap-1 sm:gap-2 text-xs sm:text-sm overflow-x-auto no-scrollbar">
-                    <Link href="/about" className="px-2 sm:px-3 py-1.5">
-                      About
+                    <Link href="/projects" className="px-2 sm:px-3 py-1.5">
+                      Projects
                     </Link>
                     <Link href="/experience" className="px-2 sm:px-3 py-1.5">
                       Experience
                     </Link>
-                    <Link href="/projects" className="px-2 sm:px-3 py-1.5">
-                      Projects
-                    </Link>
-                    <Link href="/skills" className="px-2 sm:px-3 py-1.5">
-                      Skills
+                    <Link href="/about" className="px-2 sm:px-3 py-1.5">
+                      About
                     </Link>
                 </div>
                 <Link href="/contact" className="justify-self-end">
