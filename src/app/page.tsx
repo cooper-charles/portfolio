@@ -14,7 +14,7 @@ export default function Home() {
             <div className="flex items-center justify-center gap-1 sm:gap-2 text-xs sm:text-sm overflow-x-auto no-scrollbar">
               <Link href="/resume.pdf" target="_blank" className="px-2 sm:px-3 py-1.5 flex items-center gap-2 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md">
                 <img src="/file.svg" width="25" height="15" className="brightness-0 invert"/>
-                <p className="font-bold">Resume</p>
+                <span className="font-bold">Resume</span>
               </Link>
               <Link href="https://www.linkedin.com/in/cooper-charles-45094038a/" target="_blank" className="px-2 sm:px-3 py-1.5 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md">
                 <img src="icons/linkedIn.svg" width="25" height="15" className="brightness-0 invert"/>

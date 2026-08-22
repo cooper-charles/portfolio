@@ -83,7 +83,7 @@ export default function Home() {
                 </li>
             </ul>
             <h3 className="mb-2 text-2xl font-bold text-[#9AA6E8]">
-                Python powered backend
+                Python-powered backend
             </h3>
             <p className="mb-5">
                 A Raspberry Pi running a Python scraper consistenly pulls and parses live game scores from external APIs and pushes the live scores to a Cloudflare D1 database. The scores are updated every 15 seconds while there are live games and scales down to 10 minutes when there are no live games to keep traffic low.
@@ -97,7 +97,7 @@ export default function Home() {
         </section>
         <section>
             <h2 className="mb-5 text-3xl font-heading font-bold">
-                Screenshots
+                Pictures
             </h2>
             <img src="/screenshots/scoreboard/torVsNyy.JPG" className="w-full h-full object-cover rounded-3xl p-2"/>
             <img src="/screenshots/scoreboard/asuVsDuke.JPG" className="w-full h-full object-cover rounded-3xl p-2"/>

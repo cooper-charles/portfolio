@@ -22,7 +22,6 @@ export const projects = [
     technologies: [
       "Python",
       "PyTorch",
-      "pandas",
       "CUDA",
     ],
     href: "/projects/marco",
@@ -36,6 +35,7 @@ export const projects = [
       "Next.js",
       "React",
       "Python",
+      "pandas",
       "Supabase",
       "Raspberry Pi",
     ],
