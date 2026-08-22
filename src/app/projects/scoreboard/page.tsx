@@ -27,7 +27,7 @@ export default function Home() {
                     Real-time LED scoreboard for displaying live sports scores
                 </p>
             </div>
-            <img src="/screenshots/scoreboard/home.JPG" className="w-full h-full object-cover rounded-3xl p-2"/>
+            <img src="/screenshots/scoreboard/home.jpg" className="w-full h-full object-cover rounded-3xl p-2"/>
             <p>
                 I built a full LED scoreboard system that shows live professional sports scores across seven leagues. It has a mobile interface to change settings and the displayed games as well. Everything is built from the ground up from the hardware to the backend system and graphical display.
             </p>
@@ -99,7 +99,7 @@ export default function Home() {
             <h2 className="mb-5 text-3xl font-heading font-bold">
                 Pictures
             </h2>
-            <img src="/screenshots/scoreboard/torVsNyy.JPG" className="w-full h-full object-cover rounded-3xl p-2"/>
+            <img src="/screenshots/scoreboard/torVsNyy.jpg" className="w-full h-full object-cover rounded-3xl p-2"/>
             <img src="/screenshots/scoreboard/asuVsDuke.JPG" className="w-full h-full object-cover rounded-3xl p-2"/>
             
         </section>
