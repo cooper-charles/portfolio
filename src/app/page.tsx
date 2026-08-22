@@ -53,7 +53,7 @@ export default function Home() {
 
         <section>
           <h2 className="mb-5 text-4xl font-heading font-bold">
-            Projects
+            Featured Projects
           </h2>
 
           <div className="space-y-6">

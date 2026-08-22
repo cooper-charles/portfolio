@@ -8,7 +8,7 @@ type ProjectCardProps = {
 
 export default function ProjectCard({title, image, description, technologies, href,}: ProjectCardProps) {
   return (
-    <a href={href} target="_blank" className="relative block overflow-hidden rounded-2xl group transition-all duration-300 hover:shadow-xl">
+    <a href={href} className="relative block overflow-hidden rounded-2xl group transition-all duration-300 hover:shadow-xl">
       <img src={image} alt={`${title} screenshot`} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent"/>
