@@ -31,7 +31,7 @@ export default function ProjectCard({title, image, description, technologies, hr
         </p>
 
         <div className="max-h-0 overflow-hidden opacity-0 transition-all duration-300 group-hover:max-h-10 group-hover:opacity-100 group-hover:mt-3">
-          <span className="font-semibold">
+          <span className="font-semibold text-[#9AA6E8]">
             Learn more →
           </span>
         </div>

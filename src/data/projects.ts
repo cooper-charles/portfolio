@@ -12,7 +12,7 @@ export const projects = [
       "Flask",
       "React Native"
     ],
-    href: "https://zsl.coopercharles.me",
+    href: "/projects/scoreboard",
   },
   {
     title: "Zero Sum Labs",
@@ -30,14 +30,14 @@ export const projects = [
   },
   {
     title: "Geolocation Image Classifier",
-    image: "/screenshots/zsl.png",
+    image: "/screenshots/marco.png",
     description:
       "Model that predicts the location of a Google street view image",
     technologies: [
       "Python",
       "PyTorch",
       "pandas",
-      "Cuda",
+      "CUDA",
     ],
     href: "https://zsl.coopercharles.me",
   },
