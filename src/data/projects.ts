@@ -15,6 +15,19 @@ export const projects = [
     href: "/projects/scoreboard",
   },
   {
+    title: "Geolocation Image Classifier",
+    image: "/screenshots/marco.png",
+    description:
+      "Model that predicts the location of a Google street view image",
+    technologies: [
+      "Python",
+      "PyTorch",
+      "pandas",
+      "CUDA",
+    ],
+    href: "https://zsl.coopercharles.me",
+  },
+  {
     title: "Zero Sum Labs",
     image: "/screenshots/zsl.png",
     description:
@@ -25,19 +38,6 @@ export const projects = [
       "Python",
       "Supabase",
       "Raspberry Pi",
-    ],
-    href: "https://zsl.coopercharles.me",
-  },
-  {
-    title: "Geolocation Image Classifier",
-    image: "/screenshots/marco.png",
-    description:
-      "Model that predicts the location of a Google street view image",
-    technologies: [
-      "Python",
-      "PyTorch",
-      "pandas",
-      "CUDA",
     ],
     href: "https://zsl.coopercharles.me",
   },
