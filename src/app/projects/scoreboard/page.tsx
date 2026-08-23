@@ -91,7 +91,7 @@ export default function Home() {
             <h3 className="mb-2 text-2xl font-bold text-[#9AA6E8]">
                 Mobile Interface
             </h3>
-            <p className="mb-5">
+            <p className="">
                 React Native mobile application allows the user to change their scoreboard's settings such as the games being rotated on the display or the brightness and refresh time.
             </p>
         </section>

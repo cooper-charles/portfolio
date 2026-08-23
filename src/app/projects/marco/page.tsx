@@ -58,7 +58,7 @@ export default function Home() {
             <h3 className="mb-2 text-2xl font-bold text-[#9AA6E8]">
                 Results
             </h3>
-            <p className="mb-5">
+            <p className="">
                 With our largest dataset of 200,000 images and 20 classes, the model achieved 92% accuracy in the test set.
             </p>
         </section>

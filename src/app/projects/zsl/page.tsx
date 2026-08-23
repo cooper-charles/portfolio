@@ -94,7 +94,7 @@ export default function Home() {
             <h4 className="mb-2 text-xl font-bold text-neutral-400">
                 Interpretability
             </h4>
-            <p className="mb-5">
+            <p className="">
                 Sometimes sports analytics can be difficult to digest and understand. That's why the ratings on Zero Sum Labs have a very intuitive meaning. Each rating is just how much more a team scores per game than league average. For example, a +1.50 offensive rating means that team scores 1.5 more points than average.
             </p>
         </section>
