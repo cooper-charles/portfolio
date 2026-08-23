@@ -39,6 +39,6 @@ export const projects = [
       "Supabase",
       "Raspberry Pi",
     ],
-    href: "https://zsl.coopercharles.me",
+    href: "/projects/zsl",
   },
 ];
