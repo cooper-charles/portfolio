@@ -35,7 +35,6 @@ export default function Home() {
               <div className="flex flex-wrap gap-2">
                 <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">Python</span>
                 <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">PyTorch</span>
-                <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">pandas</span>
                 <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">CUDA</span>
               </div>
               <p className="text-gray-300">
@@ -46,6 +45,32 @@ export default function Home() {
               <img 
                 src="/screenshots/marco/home.png" 
                 alt="Marco preview"
+                className="rounded-xl object-cover w-full h-auto"
+              />
+            </div>
+          </section>
+        </a>
+
+        <a href="/projects/zsl">
+          <section className="border-2 border-[#1e1e24] rounded-md p-6 flex flex-col md:flex-row items-center justify-between gap-6 w-full max-w-4xl mx-auto hover:border-[#9AA6E8]">
+            <div className="flex-1 space-y-4">
+              <h1 className="font-bold font-heading text-4xl">Zero Sum Labs</h1>
+              <div className="flex flex-wrap gap-2">
+                <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">Next.js</span>
+                <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">React</span>
+                <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">Python</span>
+                <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">pandas</span>
+                <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">Supabase</span>
+                <span className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md">Raspberry Pi</span>
+              </div>
+              <p className="text-gray-300">
+                Automated regression-based sports ratings and game projections platform
+              </p>
+            </div>
+            <div className="w-full md:w-72 shrink-0">
+              <img 
+                src="/screenshots/zsl/home.png" 
+                alt="ZSL preview"
                 className="rounded-xl object-cover w-full h-auto"
               />
             </div>
