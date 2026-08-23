@@ -66,7 +66,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section id="experience">
           <h2 className="mb-5 text-4xl font-heading font-bold">
             Experience & Leadership
           </h2>

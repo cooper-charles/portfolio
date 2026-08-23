@@ -11,7 +11,7 @@ export function Navbar() {
                     <Link href="/projects" className="px-2 sm:px-3 py-1.5">
                       Projects
                     </Link>
-                    <Link href="/experience" className="px-2 sm:px-3 py-1.5">
+                    <Link href="/#experience" className="px-2 sm:px-3 py-1.5">
                       Experience
                     </Link>
                     <Link href="/about" className="px-2 sm:px-3 py-1.5">
