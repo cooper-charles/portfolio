@@ -18,7 +18,7 @@ export function Navbar() {
                       About
                     </Link>
                 </div>
-                <Link href="/contact" className="justify-self-end">
+                <Link href="/#contact" className="justify-self-end">
                     Contact
                 </Link>
             </div>
