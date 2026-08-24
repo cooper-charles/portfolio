@@ -22,9 +22,10 @@ export default function Home() {
                 <Link href="https://github.com/cooper-charles/marco-geospatial-classifier" target="_blank" className="rounded-md border border-white/20 px-2 py-1 text-sm backdrop-blur-md hover:border-[#9AA6E8] flex items-center gap-2">
                     <img src="/icons/gitHub.svg" width="15" height="15" className="brightness-0 invert"/>
                     <span>GitHub</span>
+                    <img src="/icons/arrowLink.svg" width="15" height="15" className="brightness-0 invert"/>
                 </Link>
                 <p>
-                    Image classifier model that predicts the country that a Google street view image was taken in
+                    Image classification model that predicts the country that a Google street view image was taken in
                 </p>
             </div>
             <img src="/screenshots/marco/home.png" className="w-full h-full object-cover rounded-3xl p-2"/>
