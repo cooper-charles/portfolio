@@ -70,7 +70,7 @@ export default function Home() {
           <h2 className="mb-5 text-4xl font-heading font-bold">
             Experience & Leadership
           </h2>
-          <a href="https://bgcmt.org">
+          <a href="https://bgcmt.org" target="_blank">
             <h3 className="text-lg text-[#9AA6E8]">
               Boys & Girls Clubs of Middle Tennessee
             </h3>
@@ -88,7 +88,7 @@ export default function Home() {
           </p>
 
 
-          <a href="https://volink.utk.edu/organization/booktobuild">
+          <a href="https://volink.utk.edu/organization/booktobuild" target="_blank">
             <h3 className="text-lg text-[#9AA6E8]">
               Book to Build | University of Tennessee, Knoxville
             </h3>
