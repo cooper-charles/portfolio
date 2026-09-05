@@ -66,7 +66,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section id="experience" className="scroll-mt-24">
           <h2 className="mb-5 text-4xl font-heading font-bold">
             Experience & Leadership
           </h2>
@@ -90,7 +90,7 @@ export default function Home() {
 
           <a href="https://volink.utk.edu/organization/booktobuild">
             <h3 className="text-lg text-[#9AA6E8]">
-              Book to Build | University of Tennessee
+              Book to Build | University of Tennessee, Knoxville
             </h3>
           </a>
           <div className="flex items-center justify-between">
@@ -121,9 +121,35 @@ export default function Home() {
               Expected May 2028
             </h3>
           </div>
-          <p className="leading-relaxed mb-10">
+          <p className="leading-relaxed">
             <b>Relevant Courses:</b> Software Engineering, Introduction to Machine Learning, Systems Programming, Computer Organization, Data Structures, Algorithms, Algorithm Analysis
           </p>
+        </section>
+
+        <hr></hr>
+
+        <section id="contact">
+          <h2 className="mb-5 text-4xl font-heading font-bold">
+            Contact
+          </h2>
+          <p className="leading-relaxed">
+            Questions about a project, collaboration ideas, opportunities, or anything else? Feel free to reach out.
+          </p>
+
+          <div className="mt-6 flex gap-3">
+            <Link href="mailto:ccharl10@vols.utk.edu" target="_blank" className="px-2 sm:px-3 py-1.5 flex items-center gap-2 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md">
+              <img src="/icons/email.svg" width="25" height="15" className="brightness-0 invert"/>
+              <span className="font-bold">Email</span>
+            </Link>
+            <Link href="https://www.linkedin.com/in/cooper-charles-45094038a/" target="_blank" className="px-2 sm:px-3 py-1.5 flex items-center gap-2 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md">
+              <img src="/icons/linkedIn.svg" width="25" height="15" className="brightness-0 invert"/>
+              <span className="font-bold">LinkedIn</span>
+            </Link>
+            <Link href="https://github.com/cooper-charles" target="_blank" className="px-2 sm:px-3 py-1.5 flex items-center gap-2 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md">
+              <img src="/icons/gitHub.svg" width="25" height="15" className="brightness-0 invert"/>
+              <span className="font-bold">GitHub</span>
+            </Link>
+          </div>
         </section>
 
       </main>
