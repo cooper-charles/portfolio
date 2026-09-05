@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat, Inter } from 'next/font/google'
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -25,6 +25,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         <Navbar/>
         {children}
+        <Analytics/>
         </body>
     </html>
   );
