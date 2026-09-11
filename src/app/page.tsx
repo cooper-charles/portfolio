@@ -9,21 +9,21 @@ export default function Home() {
     <div className="min-h-screen bg-[#101014] text-white">
       <main className="max-w-3xl mx-auto px-4 py-12 flex flex-col gap-12">
         <section className="border border-2 border-[#1e1e24] rounded-md p-4">
-          <div className="grid grid-cols-[1fr_1fr]">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <h1 className="font-bold font-heading text-4xl">Cooper Charles</h1>
-            <div className="flex items-center justify-center gap-1 sm:gap-2 text-xs sm:text-sm overflow-x-auto no-scrollbar">
-              <Link href="/resume.pdf" target="_blank" className="px-2 sm:px-3 py-1.5 flex items-center gap-2 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md">
-                <img src="/file.svg" width="25" height="15" className="brightness-0 invert"/>
+            <div className="flex flex-wrap items-center gap-1 sm:gap-2 text-xs sm:text-sm">
+              <Link href="/resume.pdf" target="_blank" className="px-2 sm:px-3 py-2 flex items-center gap-2 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md shrink-0">
+                <img src="/file.svg" className="w-5 h-5 brightness-0 invert"/>
                 <span className="font-bold">Resume</span>
               </Link>
-              <Link href="https://www.linkedin.com/in/cooper-charles-45094038a/" target="_blank" className="px-2 sm:px-3 py-1.5 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md">
-                <img src="icons/linkedIn.svg" width="25" height="15" className="brightness-0 invert"/>
+              <Link href="https://www.linkedin.com/in/cooper-charles-45094038a/" target="_blank" className="px-2 sm:px-3 py-2 flex items-center justify-center border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md shrink-0">
+                <img src="icons/linkedIn.svg" className="w-5 h-5 brightness-0 invert"/>
               </Link>
-              <Link href="https://github.com/cooper-charles" target="_blank" className="px-2 sm:px-3 py-1.5 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md">
-                <img src="icons/gitHub.svg" width="25" height="15" className="brightness-0 invert"/>
+              <Link href="https://github.com/cooper-charles" target="_blank" className="px-2 sm:px-3 py-2 flex items-center justify-center border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md shrink-0">
+                <img src="icons/gitHub.svg" className="w-5 h-5 brightness-0 invert"/>
               </Link>
-              <Link href="mailto:ccharl10@vols.utk.edu" target="_blank" className="px-2 sm:px-3 py-1.5 border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md">
-                <img src="icons/email.svg" width="25" height="15" className="brightness-0 invert"/>
+              <Link href="mailto:ccharl10@vols.utk.edu" target="_blank" className="px-2 sm:px-3 py-2 flex items-center justify-center border border-[#1e1e24] hover:border-[#9AA6E8] rounded-md shrink-0">
+                <img src="icons/email.svg" className="w-5 h-5 brightness-0 invert"/>
               </Link>
             </div>
           </div>
