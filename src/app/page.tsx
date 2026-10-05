@@ -67,62 +67,53 @@ export default function Home() {
         </section>
 
         <section id="experience" className="scroll-mt-24">
-          <h2 className="mb-5 text-4xl font-heading font-bold">
+          <h2 className="mb-5 text-3xl sm:text-4xl font-heading font-bold">
             Experience & Leadership
           </h2>
+                  
           <a href="https://bgcmt.org">
-            <h3 className="text-lg text-[#9AA6E8]">
+            <h3 className="text-base sm:text-lg text-[#9AA6E8]">
               Boys & Girls Clubs of Middle Tennessee
             </h3>
           </a>
-          <div className="flex items-center justify-between">
+                  
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <h3 className="mb-1 text-lg font-bold">
               Computer Science Intern
             </h3>
-            <h3 className="mb-1 text-lg text-neutral-400">
+                  
+            <h3 className="mb-1 text-base sm:text-lg text-neutral-400">
               Nashville, TN | Summer 2026
             </h3>
           </div>
-          <p className="leading-relaxed mb-10">
-            I worked within an existing production iOS codebase, building features such as an administrative analytics dashboard in Swift and SwiftUI. I also debugged integration issues, participated in code reviews and sprint planning, and contributed to testing and App Store release workflows.
+                  
+          <p className="text-base leading-relaxed mb-10">
+            I worked within an existing production iOS codebase, building features
+            such as an administrative analytics dashboard in Swift and SwiftUI. I
+            also debugged integration issues, participated in code reviews and sprint
+            planning, and contributed to testing and App Store release workflows.
           </p>
-
-
+                  
           <a href="https://volink.utk.edu/organization/booktobuild">
-            <h3 className="text-lg text-[#9AA6E8]">
+            <h3 className="text-base sm:text-lg text-[#9AA6E8]">
               Book to Build | University of Tennessee, Knoxville
             </h3>
           </a>
-          <div className="flex items-center justify-between">
+                  
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
             <h3 className="mb-1 text-lg font-bold">
               Computer Science Liaison
             </h3>
-            <h3 className="mb-1 text-lg text-neutral-400">
+                  
+            <h3 className="mb-1 text-base sm:text-lg text-neutral-400">
               Knoxville | October 2025 - Present
             </h3>
           </div>
-          <p className="leading-relaxed">
-            As Computer Science Liaison for Book to Build, I lead a community of over 100 students and organize programming workshops and technical events that support UTK’s engineering community.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="mb-5 text-4xl font-heading font-bold">
-            Education
-          </h2>
-          <h3 className="text-lg text-[#9AA6E8]">
-            University of Tennessee, Knoxville
-          </h3>
-          <div className="flex items-center justify-between">
-            <h3 className="mb-1 text-lg font-bold">
-              B.S. Computer Science | Minor in Machine Learning
-            </h3>
-            <h3 className="mb-1 text-lg text-neutral-400">
-              Expected May 2028
-            </h3>
-          </div>
-          <p className="leading-relaxed">
-            <b>Relevant Courses:</b> Software Engineering, Introduction to Machine Learning, Systems Programming, Computer Organization, Data Structures, Algorithms, Algorithm Analysis
+                  
+          <p className="text-base leading-relaxed">
+            As Computer Science Liaison for Book to Build, I lead a community of over
+            100 students and organize programming workshops and technical events that
+            support UTK’s engineering community.
           </p>
         </section>
 
