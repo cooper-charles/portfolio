@@ -70,6 +70,24 @@ export default function Home() {
           <h2 className="mb-5 text-4xl font-heading font-bold">
             Experience & Leadership
           </h2>
+          
+          <a href="https://www.garmin.com/en-US/" target="_blank">
+            <h3 className="text-lg text-[#9AA6E8]">
+              Garmin
+            </h3>
+          </a>
+          <div className="flex items-center justify-between">
+            <h3 className="mb-1 text-lg font-bold">
+              Incoming Software Engineering Intern
+            </h3>
+            <h3 className="mb-1 text-lg text-neutral-400">
+              Olathe, KS | Summer 2027
+            </h3>
+          </div>
+          <p className="leading-relaxed  mb-10">
+            I will be with Garmin this upcoming summer as a Software Engineering Intern.
+          </p>
+          
           <a href="https://bgcmt.org" target="_blank">
             <h3 className="text-lg text-[#9AA6E8]">
               Boys & Girls Clubs of Middle Tennessee
